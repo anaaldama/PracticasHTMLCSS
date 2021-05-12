@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Posicion</title>
+	<style type="text/css">
+		section{
+			border: 4px solid blue;
+			width: 400px;
+			height: 180px;
+		}
+
+		article {
+			border: 4px solid pink;
+			width: 100px;
+		}
+		#Art1{
+			position: static;
+			border: 4px solid green;
+		}
+		#Art2{
+			position: relative;
+			border:4px solid yellow;
+			left: 150px;
+			/*top: 150px;*/
+			/*right: 0px;*/
+			bottom: 0px;
+		}
+		#Art3{
+			border: 4px solid purple;
+			position: absolute;
+			/*left: 150px;*/
+			top:0px;
+			bottom: 0px;
+			right: 0px;
+		}
+		#sec2{
+			position: relative;
+			border: 4px solid lime;
+			width: 500px;
+			height: 400px;
+		}
+		#Art6{
+			border: 4px solid fuchsia;
+			position: absolute;
+			top:25px;
+			bottom:0px;
+			right: 0px;
+		}
+		#Art7{
+			border: 4px solid fuchsia;
+			position: absolute;
+			top:25px;
+			bottom:0px;
+			left: 0px;
+		}
+		#Art9{
+			border: 4px solid gray;
+			position: fixed;
+			top: 25px;
+			left: 300px;
+			background: gray;
+			color: #ffffff;
+			border-radius: 20px;
+			width: 30px;
+			padding: 10px 10px 10px 10px;
+			margin: 10px 10px 10px 10px;
+		}
+	</style>
+</head>
+<body>
+	<section id="sec1">
+		Seccion 1
+		<article id="Art1">Articulo1</article>
+		<article id="Art2">Articulo2</article>
+		<article id="Art3">Articulo3</article>
+		<article id="Art4">Articulo4</article>
+		<article id="Art5">Articulo5</article>
+	</section>
+	<br>
+	<section id="sec2">
+		Seccion 2
+		<article id="Art6">Articulo6</article>
+		<article id="Art7">Articulo7</article>
+	</section>
+	<br>
+	<aside>
+		<section id="sec3">
+			Seccion 3
+			<article id="Art8">Articulo8</article>
+			<article id="Art9">Fijo</article>
+			<article id="Art10">Articulo10</article>
+		</section>
+	</aside>
+</body>
+</html>

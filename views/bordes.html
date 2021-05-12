@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejemplo de Bordes</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+		<style type="text/css">
+			section p{
+				/*margin: 25px;*/
+				/*
+				margin-top: 50px;
+				margin-right: 50px;
+				margin-bottom: 50px;
+				margin-left: 50px;
+				*/
+				/*margin: 25px 150px 25px 100px;*/
+				/*margin: 50px 25px 100px*/
+				/*margin: 25px 100px;*/
+				text-align: center;
+				margin-top: 0px;
+				margin-bottom: 50px;
+				margin-left: 50px;
+				margin-right: 50px;
+				padding-top: 50px;
+				padding-bottom: 50px;
+				border-radius: 200px;
+
+				border:10px solid #79E5E1;
+			}
+			p.dotted{
+				text-align: center;
+				border-style: dotted;
+			}
+			p.dashed{
+				text-align: center;
+				border-style: dashed;
+			}
+			p.solid{
+				text-align: center;
+				border-style: solid;
+			}
+			p.double{
+				text-align: center;
+				border-style: double;
+			}
+			p.groove{
+				text-align: center;
+				border:10px;
+				border-style: groove;
+			}
+			p.varios{
+				text-align: center;
+				border:5px;
+				border-style: dotted dashed solid double;
+				border-color: green;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="cabecera">	
+			<nav>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>PHP</li>
+					<li>JS</li>
+					<li>MYSQL</li>
+				</ul>
+			</nav>
+		</header>
+		<div class="contenido">
+			<h1>Ejemplo de Bordes</h1>
+
+			<section>
+				<p>Parrafo general</p>
+			</section>
+
+			<p class="dotted">Borde estilo:Dotted</p>
+			<p class="dashed">Borde estilo:Dashed</p>
+			<p class="solid">Borde estilo:Solid</p>
+			<p class="double">Borde estilo:Double</p>
+			<p class="groove">Borde estilo:Groove</p>
+			<p class="varios">Borde estilo:Varios</p>
+		</div>
+		<footer > 
+			<a href="../index.html" class="enlaceP">Home</a>
+			<a href="#" class="enlaceP">Acerca</a>
+			<a href="#" class="enlaceP">Faq</a>
+			<a href="#" class="enlaceP">Contacto</a>
+		</footer>
+	</body>
+</html>

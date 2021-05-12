@@ -1,0 +1,133 @@
+/* Selector universal */
+*{
+	/*color:#096312;*/
+	/*background-color: #E1E0DE;*/
+	box-sizing: border-box;
+}
+/* Selector por etiqueta*/
+h1{
+	color:#283e3e;
+	text-align: center;
+}
+
+/* Selectores grupales*/
+h2,h3,h4,h5{
+	color: #49046B;
+	text-align: center;
+}
+/* Selector por clase / CLASS*/
+.importante{
+	color: red;
+	text-align: center;
+}
+.centrado{
+	text-align: center;
+}
+/* Selector por id*/
+#menuLista{
+	color: green;
+}
+
+/* Menu */
+header{
+	position: relative;
+	width: 69%;
+	height: 20%;
+	left: 15%;
+}
+
+nav ul{
+	list-style-type: none;
+	width: 100%;
+	text-align: right;
+	background: #0B5345;
+	/*background: linear-gradient(45deg, red 0%, orange 25%, yellow 50%, green 75%, blue 100%);*/
+	color:#ffffff;
+	border-radius: 5px;
+	transition: all 5s;
+}
+nav ul li{
+	display: inline-block;
+	padding: 15px;
+}
+nav ul li:hover{
+	cursor: pointer;
+	background-color: #E8F6F3;
+	color:#000000;
+}
+
+
+/* Contenido */
+.contenido{
+	position: relative;
+	border: 0px solid purple;
+	width: 69%;
+	height: 38em;
+	left: 15%;
+}
+
+#informacion{
+	position: absolute;
+	border: 0px solid black;
+	width: 70%;
+	left: 15%;
+	text-align: center;
+}
+
+/* Barras laterales */
+aside nav ul li{ 
+	width: 20%;
+	background-color: #1FC623;
+}
+
+aside{
+	position: absolute;	
+	border-radius: 15px;
+	text-align: center;
+	background: #E8F6F3;
+	width: 15%;
+	top:0px;
+	bottom: 0px;
+}
+#barraIzq{ 	
+	left: 0px; 
+}
+#barraDer{ 	
+	right: 0px; 
+ }
+
+ /* Pie de Pagina */
+footer {
+	position: relative;
+	width: 69%;
+	height: 3rem;
+	left: 15%;
+		
+	border-radius: 15px 15px 10px 10px;
+	margin-top: 20px;
+	padding: 2rem;
+	text-align: center;
+}
+a.enlaceP{
+	
+	font-family: Century Gothic,Tahoma,sans-serif;
+	font-weight:bold;
+	padding: 1em;
+	color: #000000;
+	text-decoration: none;
+
+	transition: padding  1s;
+
+}
+a.enlaceP:hover {
+	/*deg(angulos) top 0, bottom 180, left 270, right 90*/
+	background: linear-gradient(180deg, #ffffff  90%, #0B5345 10%);
+	background-position: 0 3em;
+	transition: all  .6s;
+}
+.copyright{
+	text-align: right;
+	color: #A8A9A9;
+	font-style: italic;
+	font-size: 1rem;
+}
